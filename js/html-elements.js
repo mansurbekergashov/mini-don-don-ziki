@@ -1,5 +1,10 @@
-let elRock = document.querySelector(".rock");
-let elPaper = document.querySelector(".paper");
-let elScissors = document.querySelector(".scissors");
+let elPlayerHand = document.querySelectorAll(".player-hand");
+let elChooseZone = document.querySelector(".chooseZone")
+let elStatusZone = document.querySelector(".statusZone")
+let elPlayAgain =document.getElementById("playAgain")
+let elPlayerChooseHand=document.getElementById("playerchooseHand")
 
-export { elRock, elPaper, elScissors };
+export { elPlayerHand, elChooseZone, elStatusZone, elPlayAgain, elPlayerChooseHand };
+
+
+

@@ -9,26 +9,26 @@
 <body>
 
     <!-- CHOOSE ZONE -->
-    <div class="grid grid-cols-2 grid-rows-2">
-        <!-- <button class="player-image"> -->
-            <img class="rock w-[150px] h-[150px]" src="./images/rock.svg" alt="rock">
-        <!-- </button> -->
-        <!-- <button class="player-image"> -->
-            <img class="paper w-[150px] h-[150px]" src="./images/paper.svg" alt="paper">
-        <!-- </button> -->
-        <!-- <button class="player-image"> -->
-            <img class="scissors w-[150px] h-[150px]" src="./images/scissors.svg" alt="scissors">
-        <!-- </button> -->
+    <div class="grid chooseZone grid-cols-2 grid-rows-2">
+        <button class="">
+            <img class="player-hand  w-[150px] h-[150px]" src="./images/rock.svg" alt="rock">
+        </button>
+        <button class="">
+            <img class="player-hand  w-[150px] h-[150px]" src="./images/paper.svg" alt="paper">
+        </button>
+        <button class="">
+            <img class="player-hand  w-[150px] h-[150px]" src="./images/scissors.svg" alt="scissors">
+        </button>
         
     </div>
 
 
     <!-- STATUS ZONE  -->
-     <div class="hidden">
+     <div class="hidden statusZone">
         <!-- player image -->
-        <img src="" alt="player">
+        <img src="" id="playerChooseHand" alt="player">
         <p id="statusText"></p>
-        <button id="playAgain"></button>
+        <button id="playAgain">Play again</button>
 
         <!-- ai image -->
          <img src="" alt="AI">
