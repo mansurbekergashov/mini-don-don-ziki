@@ -1,17 +1,22 @@
-export function checkWinner(ai, player){
-    if (ai==player){
+import {aiChoose  } from "./ai-choose.js";
+
+export function checkWinner(ai, player) {
+    if (ai == player) {
         return "draw"
     }
-    else if (ai=="rock" && player == "scissors"){
+    else if (ai == "rock" && player == "scissors") {
         return "ai"
     }
-    else if (ai=="paper" && player == "rock"){
+    else if (ai == "paper" && player == "rock") {
         return "ai"
     }
-    else if (ai=="scissors" && player == "paper"){
+    else if (ai == "scissors" && player == "paper") {
         return "ai"
     }
-    else{
+    else {
         return "player"
     }
 }
+
+
+console.log(checkWinner(aiChoose(), "rock"));

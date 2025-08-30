@@ -1,6 +1,7 @@
-let hands = ["rock", "paper", "scissors"];
+export let hands = ["rock", "paper", "scissors"];
 
 export function aiChoose() {
     let result = Math.trunc(Math.random() * hands.length);
-    return hands[result];
+    let handAi = hands[result]
+    return handAi;
 }
