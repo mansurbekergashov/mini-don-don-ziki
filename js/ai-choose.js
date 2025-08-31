@@ -5,3 +5,5 @@ export function aiChoose() {
     let handAi = hands[result]
     return handAi;
 }
+
+

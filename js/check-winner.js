@@ -1,5 +1,3 @@
-import {aiChoose  } from "./ai-choose.js";
-
 export function checkWinner(ai, player) {
     if (ai == player) {
         return "draw"
@@ -19,4 +17,4 @@ export function checkWinner(ai, player) {
 }
 
 
-console.log(checkWinner(aiChoose(), "rock"));
+
