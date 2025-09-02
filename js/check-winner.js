@@ -1,18 +1,18 @@
 export function checkWinner(ai, player) {
     if (ai == player) {
-        return "draw"
+        return "draw";
     }
     else if (ai == "rock" && player == "scissors") {
-        return "ai"
+        return "ai";
     }
     else if (ai == "paper" && player == "rock") {
-        return "ai"
+        return "ai";
     }
     else if (ai == "scissors" && player == "paper") {
-        return "ai"
+        return "ai";
     }
     else {
-        return "player"
+        return "player";
     }
 }
 

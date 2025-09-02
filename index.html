@@ -24,7 +24,7 @@
 
 
     <!-- STATUS ZONE  -->
-     <div class="hidden statusZone">
+    <div class="hidden statusZone">
         <!-- player image -->
         <img src="" id="playerChooseHand" alt="player">
         
@@ -36,11 +36,24 @@
 
         <!-- ai image -->
         <img src="" id="aiChooseHand" alt="AI">
-     </div>
+    </div>
 
+
+
+    <button class="w-[100px] h-[40px] rounded-[8px] absolute bottom-5 right-40 bg-amber-600 text-[white] " id="rules">
+      Rules
+    </button>
+
+    <div id="modal" class="hidden bg-[#777777] md:w-[400px] md:h-[415px] w-[200px] h-[280px] rounded-[8px]  fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+      <span class="flex justify-between md:pl-8 md:pr-8 md:pt-0 pl-8 pr-8 pt-6">
+        <h1 class="text-[#3B4262] md:text-[32px] font-bold md:pt-6">RULES</h1>
+        <button class="md:pt-6 closeRules">
+          <img src="./images/x.svg" alt="X" />
+        </button>
+      </span>
+      <img class="absolute md:px-12 md:py-10 px-4 py-2 pt-10" src="./images/rules.svg" alt="Rules" />
+    </div>
 
     <script src="./js/main.js" type="module"></script>
-    <script src="./js/ai-choose.js" type="module"></script>
-    <script src="./js/check-winner.js" type="module"></script>
 </body>
 </html>
